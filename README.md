@@ -28,7 +28,7 @@ Results and Interpretation:
 
 <img width="500" alt="Screenshot 2024-06-19 at 16 21 04" src="https://github.com/MichAdebayo/Customer-Engagement-Analysis-with-Excel/assets/92400436/caffa178-890a-4b5f-a55f-9f7f3b858e27">
 
-* **Paid-plan Students**
+**Paid-plan Students**
 
 * **Mean:** Among students who watched between 1 and 100 minutes in 2021, the average minutes watched by paid-plan students increased significantly from Q4 2021 to Q4 2022, from approximately 33.80 minutes to about 273.02 minutes. This suggests a substantial increase in engagement among this group of initially low-engagement-paid-plan students.
 
