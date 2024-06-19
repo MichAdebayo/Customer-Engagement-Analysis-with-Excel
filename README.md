@@ -61,6 +61,13 @@ On average, low-engagement-paid students initially increased their watching time
 
 Based on the findings, the platform is more successful in increasing engagement among students who make a monetary investment (i.e., paid-plan students). But the increased variability, especially among paid-plan students, indicates that there are likely differences in how individual students are responding to the platform's offerings. Therefore, personalized approaches might be beneficial in boosting engagement, and further analysis could help understand the factors that drive increased engagement among paid- and free-plan students.
 
+
+#### **Task 2:** Calculate the skewness and kurtosis of students who watched content in Q4 2021 and Q4 2022? Consider paid- and free-plan students. Does the result contradict the mean and median values previously obtained?
+
+Results and Interpretation:
+
+
+
 ## File Information
 
 The Excel file 'Engagement Project.xlsx' consists of four sheets: Task 1 and 2, Task 3, Task 4, and Task 5. Each sheet contains specific information regarding the project's tasks and corresponding data.
