@@ -22,7 +22,7 @@ The dataset for this project comes from the 365 company, hence, it is a real-wor
 
 ## Tasks
 
-**Task 1:** Compute the mean, median, and standard deviation for paid-plan and free-plan student groups. Is there a difference in engagement between paid- and free-plan subscribers?
+### **Task 1:** Compute the mean, median, and standard deviation for paid-plan and free-plan student groups. Is there a difference in engagement between paid- and free-plan subscribers?
 
 ### Results and Interpretation: 
 
