@@ -19,3 +19,7 @@ The dataset for this project comes from the 365 company, hence, it is a real-wor
 * **minutes_watched_22 –** denotes the student’s engagement level, as expressed by the number of minutes a student has watched in Q4 2022.
 
 * **Paid –** indicates whether a student had a paid account during the specified period. It is a binary variable, where '1' represents a paid account and '0' represents a free or unpaid account. It helps differentiate between students who have access to additional features or content through a paid subscription.
+
+## File Information
+
+The Excel file 'Engagement Project.xlsx' consists of four sheets: Task 1 and 2, Task 3, Task 4, and Task 5. Each sheet contains specific information regarding the project's tasks and corresponding data.
