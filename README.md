@@ -77,10 +77,27 @@ Further, for **Paid-plan Students**, the kurtosis increased from -0.85 in Q4 202
 
 Overall, the increasing skewness and kurtosis for both groups from Q4 2021 to Q4 2022 suggest a growing number of students watching significantly more content than the majority. This is especially true for free-plan students with a higher skewness and kurtosis in Q4 2022 than paid-plan students.
 
-## Exploring the difference in engagement between paid- and free-plan subscribers
+## Confidence Intervals (95%) for Students' Engagement in Q4 2021 and Q4 2022
 
+### **Paid-plan Students**
 
+<div align="center">
+<img width="576" alt="Screenshot 2024-06-20 at 13 17 35" src="https://github.com/MichAdebayo/Customer-Engagement-Analysis-with-Excel/assets/92400436/12b85f7e-2020-44a3-92f7-5dfd3f0d7b81">
+</div>
 
+For paid-plan students, there's an increase in engagement from Q4 2021 to Q4 2022. The confidence interval for the average minutes watched by paid-plan students increased from Q4 2021 (316.25 to 348.76 minutes) to Q4 2022 (351.91 to 384.72 minutes). This suggests that we can be 95% confident that the true average minutes watched by all paid-plan students in the population increased from Q4 2021 to Q4 2022.
+
+### **Free-plan Students**
+
+<div align="center">
+<img width="608" alt="Screenshot 2024-06-20 at 13 19 39" src="https://github.com/MichAdebayo/Customer-Engagement-Analysis-with-Excel/assets/92400436/4810543c-5cce-41d8-8b21-899127fa633c">
+</div>
+
+Among free-plan students, there's a decrease in engagement from Q4 2021 to Q4 2022. The confidence interval for the average minutes watched decreased from Q4 2021 (129.92 to 137.95 minutes) to Q4 2022 (67.71 to 70.59 minutes). We then can be 95% confident that the true average minutes watched by all free-plan students in the population decreased from Q4 2021 to Q4 2022.
+
+### **Comparison between Paid- and Free-Plan Students (Q4 2022)**
+
+Students with a paid-plan subscription watch substantially more than those without. The confidence interval for the average minutes watched in Q4 2022 was 61.71 to 70.59 minutes for free-plan students and 351.99 to 384.72 minutes for paid-plan students. We then can be 95% confident that paid-plan students watched significantly more minutes than free-plan students in Q4 2022. This aligns with the expectation that paid-plan students who have invested in the platform tend to be more engaged than free-plan users. 
 
 ## File Information
 
