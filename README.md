@@ -77,7 +77,7 @@ Further, for **Paid-plan Students**, the kurtosis increased from -0.85 in Q4 202
 
 Overall, the increasing skewness and kurtosis for both groups from Q4 2021 to Q4 2022 suggest a growing number of students watching significantly more content than the majority. This is especially true for free-plan students with a higher skewness and kurtosis in Q4 2022 than paid-plan students.
 
-## Confidence Intervals (95%) for Students' Engagement in Q4 2021 and Q4 2022
+## Confidence Intervals for Students' Engagement in Q4 2021 and Q4 2022
 
 ### **Paid-plan Students**
 
@@ -100,6 +100,12 @@ Among free-plan students, there's a decrease in engagement from Q4 2021 to Q4 20
 * Students with a paid-plan subscription watch substantially more than those without. The confidence interval for the average minutes watched in Q4 2022 was 61.71 to 70.59 minutes for free-plan students and 351.99 to 384.72 minutes for paid-plan students. We then can be 95% confident that paid-plan students watched significantly more minutes than free-plan students in Q4 2022. This aligns with the expectation that paid-plan students who have invested in the platform tend to be more engaged than free-plan users. 
 
 Please note that these are just interpretations based on the confidence intervals. Actual cause-effect relationships must be examined further to understand the causes behind these engagement changes. The fact that paid-plan subscribers watch more doesn't necessarily mean that having a paid-plan subscription encourages them to watch more. For example, the higher engagement among paid-plan students may be due to the additional features or content available or because more engaged students are more likely to choose a paid-plan subscription. Similarly, the decrease in engagement among free-plan students could be due to various factors, such as changes in the platform, competition from other platforms, or changes in the user base.
+
+## Hypothesis Testing of Student Engagement in Q4 2021 vs. Q4 2022: Variance Analysis and Error Costs
+
+For this analysis, the following hypothesis and assumption were made: 
+
+H_0 : The engagement (minutes watched) in Q4 2021 is higher than or equal to the one in Q4 2022 (μ1 ≥ μ2)
 
 ## File Information
 
