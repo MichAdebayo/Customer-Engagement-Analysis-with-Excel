@@ -20,12 +20,12 @@ The dataset for this project comes from the 365 company, hence, it is a real-wor
 
 * **Paid –** indicates whether a student had a paid account during the specified period. It is a binary variable, where '1' represents a paid account and '0' represents a free or unpaid account. It helps differentiate between students who have access to additional features or content through a paid subscription.
 
-## Tasks
+## Exploring the difference in engagement between paid- and free-plan subscribers
 
 #### **Task 1:** Compute the mean, median, and standard deviation for paid-plan and free-plan student groups. Is there a difference in engagement between paid- and free-plan subscribers?
 
 Results and Interpretation: 
-
+ 
 **Paid-plan Students**
 
 <div align="center">
