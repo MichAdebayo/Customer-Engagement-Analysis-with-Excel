@@ -117,7 +117,7 @@ To validate this assumption, a two-sample f-test for variances was performed to 
 
 The p-value indicates the probability of obtaining the observed f-value if the null hypothesis (equal variances) were true. The sample variances are not identical since the p-value in both cases is 0. Therefore a t-test was carried out. 
 
-* ### **Paid-plan Students**
+### **Paid-plan Students**
 
 <div align="center">
 <img width="562" alt="Screenshot 2024-06-20 at 13 39 45" src="https://github.com/MichAdebayo/Customer-Engagement-Analysis-with-Excel/assets/92400436/22a9dbfc-306d-46eb-80e8-9b52158e4e93">
@@ -127,7 +127,7 @@ The p-value indicates the probability of obtaining the observed f-value if the n
 
 **Summary:** With a t-statistic of -3.05 (less than the critical value of -1.645), the null hypothesis is rejected because the negative t-statistic indicates that  (the mean minutes watched by students in Q4 2021) is significantly smaller than  (the mean minutes watched by students in Q4 2022). Hence, based on the available data, there is enough evidence against the null hypothesis.
 
-* ### **Free-plan Students**
+### **Free-plan Students**
 
 <div align="center">
 <img width="527" alt="Screenshot 2024-06-20 at 14 03 51" src="https://github.com/MichAdebayo/Customer-Engagement-Analysis-with-Excel/assets/92400436/0b32cc60-f917-419a-9920-1a05bea27486">
