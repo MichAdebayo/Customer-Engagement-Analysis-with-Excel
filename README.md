@@ -8,7 +8,7 @@ In 2022, there were high expectations for the growth of the 365 company and incr
 
 ## Dataset
 
-The dataset for this project comes from the 365 company, hence, it is a real-world dataset that represent the company’s operations. Note that personal user information has been masked to ensure privacy. The following are the column values available in the data: 
+The dataset for this project comes from the 365 company, hence, it is a real-world dataset that represent low-engagement-paid- and free- plan students of the company’s operations. Note that personal user information has been masked to ensure privacy. The following are the column values available in the dataset: 
 
 * **student_id –** the unique identifier for each student in the dataset. The field contains IDs for students who used the 365 Data Science platform with free or paid accounts in **Q4 2021** (October 1, 2021 – December 31, 2021, both included) and **Q4 2022** (October 1, 2022 – December 31, 2022, both included).
 
@@ -42,21 +42,30 @@ These results suggest that paid-plan students who were initially low-engagement 
 <img width="504" alt="Screenshot 2024-06-19 at 16 42 59" src="https://github.com/MichAdebayo/Customer-Engagement-Analysis-with-Excel/assets/92400436/00f392f6-7551-479e-8cdc-395cc90fc632">
 </div>
 
-* **Mean:** Among students who watched between 1 and 100 minutes in 2021, the average minutes watched by free-plan students increased from about 25.39 minutes in Q4 2021 to about 117.64 minutes in Q4 2022. This suggests that overall engagement among these initially low-engagement-free-plan students increased during this period. But the extent of this increase is less than what was observed for similar low-engagement-paid-plan students, suggesting that while these free-plan students are watching more content, they're still not as engaged as the equivalent group of paid-plan students.
+* **Mean:** Among students who watched between 1 and 100 minutes in 2021, the average minutes watched by **free-plan students** increased from about 25.39 minutes in Q4 2021 to about 117.64 minutes in Q4 2022. This suggests that overall engagement among these initially low-engagement-free-plan students increased during this period. But the extent of this increase is less than what was observed for similar low-engagement-paid-plan students, suggesting that while these free-plan students are watching more content, they're still not as engaged as the equivalent group of paid-plan students.
 
-* **Median:** Interestingly, the median minutes watched by these low-engagement-free-plan students decreased from Q4 2021 to Q4 2022, from 14.17 minutes to 11.83 minutes. This indicates that engagement decreased for the typical student in this group (i.e., the student in the middle of the distribution). The increase in the mean might be driven by a small number of free-plan students who significantly increased their engagement in Q4 2022, while the majority did not increase their engagement or even reduced it.
+* **Median:** Interestingly, the median minutes watched by these low-engagement-free-plan students decreased from Q4 2021 to Q4 2022, from 14.17 minutes to 11.83 minutes. This indicates that engagement decreased for the typical student in this group (i.e., the student in the middle of the distribution). The increase in the mean might be driven by a small number of **free-plan students** who significantly increased their engagement in Q4 2022, while the majority did not increase their engagement or even reduced it.
 
 * **Standard Deviation:** The standard deviation for the low-engagement-free-plan students increased from 26.23 minutes in Q4 2021 to 468.93 minutes in Q4 2022. This indicates a more significant variability in the minutes watched by these students in Q4 2022 compared to Q4 2021. The behavior of these students then became more diverse in Q4 2022, with some watching a lot of content and others watching very little.
 
-These results suggest a complex picture for the initially low-engagement-free-plan students. While the mean minutes watched increased—signifying an increase in overall engagement—the median minutes watched decreased, indicating that the typical student in this group did not increase their engagement. This discrepancy and the increased standard deviation suggest that a small number of students within this group might significantly increase their engagement while the majority did not. This might imply the need for targeted strategies to boost engagement among the broader population of initially low-engagement-free-plan students.
+These results suggest a complex picture for the initially low-engagement-free-plan students. While the mean minutes watched increased,signifying an increase in overall engagement, the median minutes watched decreased, indicating that the typical student in this group did not increase their engagement. This discrepancy and the increased standard deviation suggest that a small number of students within this group might significantly increase their engagement while the majority did not. This might imply the need for targeted strategies to boost engagement among the broader population of initially low-engagement-free-plan students.
 
 
 ### **Paid vs Free-Plan Students**
 
-On average, low-engagement-paid students initially increased their watching time more significantly than the free-plan students from Q4 2021 to Q4 2022. This could suggest that paid-plan students find more value in the platform, possibly due to premium features or content that are available to them.In contrast, the median watch time decreased for free-plan students, suggesting that the typical free-plan student in this group did not increase their engagement. This discrepancy might indicate that the strategies or features designed to increase engagement are more effective for paid-plan students. It could also suggest that the monetary investment leads to increased usage due to a desire to get their money's worth.
+On average, low-engagement-paid students initially increased their watching time more significantly than the free-plan students from Q4 2021 to Q4 2022. This could suggest that paid-plan students find more value in the platform, possibly due to premium features or content that are available to them.In contrast, the median watch time decreased for free-plan students, suggesting that the typical **free-plan student** in this group did not increase their engagement. This discrepancy might indicate that the strategies or features designed to increase engagement are more effective for **paid-plan students**. It could also suggest that the monetary investment leads to increased usage due to a desire to get their money's worth.
 
 Based on the findings, the platform is more successful in increasing engagement among students who make a monetary investment (i.e., paid-plan students). But the increased variability, especially among paid-plan students, indicates that there are likely differences in how individual students are responding to the platform's offerings. Therefore, personalized approaches might be beneficial in boosting engagement, and further analysis could help understand the factors that drive increased engagement among paid- and free-plan students.
 
+## Further Descriptive Statistics on the Difference in Engagement between Paid- and Free-plan Subscribers
+
+### **Paid-plan Students**
+
+<div align="center">
+<img width="489" alt="Screenshot 2024-06-20 at 12 45 25" src="https://github.com/MichAdebayo/Customer-Engagement-Analysis-with-Excel/assets/92400436/eb58c42c-8923-4138-ac10-952dd3b62a73">
+</div>
+
+For **paid-plan students**, the skewness increased from 0.63 in Q4 2021 to 7.07 in Q4 2022.
 
 #### **Task 2:** Calculate the skewness and kurtosis of students who watched content in Q4 2021 and Q4 2022? Consider paid- and free-plan students. Does the result contradict the mean and median values previously obtained?
 
