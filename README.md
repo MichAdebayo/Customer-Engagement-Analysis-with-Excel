@@ -101,7 +101,7 @@ Among free-plan students, there's a decrease in engagement from Q4 2021 to Q4 20
 
 Please note that these are just interpretations based on the confidence intervals. Actual cause-effect relationships must be examined further to understand the causes behind these engagement changes. The fact that paid-plan subscribers watch more doesn't necessarily mean that having a paid-plan subscription encourages them to watch more. For example, the higher engagement among paid-plan students may be due to the additional features or content available or because more engaged students are more likely to choose a paid-plan subscription. Similarly, the decrease in engagement among free-plan students could be due to various factors, such as changes in the platform, competition from other platforms, or changes in the user base.
 
-## Hypothesis Testing of Student Engagement in Q4 2021 vs. Q4 2022: Variance Analysis and Error Type Costs
+## Hypothesis Testing of Student Engagement in Q4 2021 vs. Q4 2022
 
 For this analysis, the following hypothesis was made for both paid- and free- plan students: 
 
@@ -145,6 +145,39 @@ A Type I error (false positive) occurs when you reject the null hypothesis, whic
 A Type II error (false negative) occurs when you fail to reject the null hypothesis, but it’s false. In this case, this would mean that the engagement in 2022 is not higher than it is. 
 
 However, results show that the case to either support or reject the null hypothesis is different for paid- and free-plan students. Therefore, the cost to the company of each type of error would depend on the implications of incorrectly concluding that engagement has increased, potentially leading to over-investment in certain features or complacency about needing to improve features **versus** incorrectly concluding that engagement has not increased, potentially missing out on recognizing successful features or identifying areas that need improvement.
+
+## Hypothesis Testing of Free-plan Student Engagement in Q4 2022 (US versus Indian users)
+
+For this analysis, the following hypotheses were made: 
+
+* H~0~ : The engagement (minutes watched) in the US is higher than or equal to that in India (μ1 ≥ μ2).
+* H~0~ : The engagement (minutes watched) in the US is lower than that in India (μ1 < μ2).
+  
+ * Assumption: There is an unequal variance between US and Indian Free-plan subscribers. 
+
+To validate this assumption, a two-sample f-test for variances was performed to prove the assumption of unequal variances between the samples for US and Indian Free-plan subscribers. 
+
+<div align="center">
+<img width="593" alt="Screenshot 2024-06-20 at 14 36 15" src="https://github.com/MichAdebayo/Customer-Engagement-Analysis-with-Excel/assets/92400436/f6e14ee8-6e20-480e-b798-c2296f52c1e5">
+</div>
+
+The p-value indicates the probability of obtaining the observed f-value if the null hypothesis (equal variances) were true. The sample variances are not identical since the p-value is lower than 0. Therefore a t-test was carried out.   
+
+<div align="center">
+<img width="569" alt="Screenshot 2024-06-20 at 14 43 07" src="https://github.com/MichAdebayo/Customer-Engagement-Analysis-with-Excel/assets/92400436/eba5e44d-40ec-43d0-9771-5f0e8925f057">
+</div>
+
+**Conclusion:** Fail to Reject H~0~ because the p-value is higher than the specified significance level α (0.05).
+
+If the hypothesis that US students watch more or an equal amount of content as Indian students is rejected, this suggests that US students watch less content on average than students in India.
+
+This could have the following implications.
+
+**Market Differences:** These details might indicate that the platform is more engaging or relevant to students in India than US students. Understanding the reasons behind this could be valuable. Are the platform’s specific features, content, or aspects particularly appealing to Indian students? Such questions need to be addressed further but are beyond the scope of this analysis.
+
+**Growth Opportunities:** If US engagement is lower, this could represent a growth opportunity. The 365 company might seek ways to increase engagement among US students, involving marketing efforts, adding more content relevant to US students, or other strategies.
+
+**Resource Allocation:** This information could be helpful when deciding where to allocate resources. For example, if Indian students are more engaged, investing in more content and features targeted toward this audience might make sense.
 
 ## File Information
 
