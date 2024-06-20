@@ -36,7 +36,7 @@ The dataset for this project comes from the 365 company, hence, it is a real-wor
 
 These results suggest that paid-plan students who were initially low-engagement in 2021 significantly increased their engagement in 2022. But the increased standard deviation indicates a broader range of engagement levels among these students in 2022. Understanding the reasons behind this variability could provide valuable insights for further boosting engagement. For instance, the factors that motivated the students who significantly increased their engagement might be leveraged to encourage increased engagement among other students.
 
-**Free-plan Students**
+### **Free-plan Students**
 
 <div align="center">
 <img width="504" alt="Screenshot 2024-06-19 at 16 42 59" src="https://github.com/MichAdebayo/Customer-Engagement-Analysis-with-Excel/assets/92400436/00f392f6-7551-479e-8cdc-395cc90fc632">
