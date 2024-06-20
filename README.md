@@ -140,7 +140,12 @@ The p-value indicates the probability of obtaining the observed f-value if the n
 
 * ### **Which, if committed would result in a higher cost for the company: Type I or Type II error?**
 
-  
+A Type I error (false positive) occurs when you reject the null hypothesis, which is true. In this case (i.e., based on the null hypothesis), this would mean concluding that engagement in 2022 is higher when it's not.  
+
+A Type II error (false negative) occurs when you fail to reject the null hypothesis, but it’s false. In this case, this would mean that the engagement in 2022 is not higher than it is. 
+
+However, results show that the case to either support or reject the null hypothesis is different for paid- and free-plan students. Therefore, the cost to the company of each type of error would depend on the implications of incorrectly concluding that engagement has increased, potentially leading to over-investment in certain features or complacency about needing to improve features **versus** incorrectly concluding that engagement has not increased, potentially missing out on recognizing successful features or identifying areas that need improvement.
+
 ## File Information
 
 The Excel file 'Engagement Project.xlsx' consists of four sheets: Task 1 and 2, Task 3, Task 4, and Task 5. Each sheet contains specific information regarding the project's tasks and corresponding data.
