@@ -59,17 +59,26 @@ Based on the findings, the platform is more successful in increasing engagement 
 
 ## Further Descriptive Statistics on the Difference in Engagement between Paid- and Free-plan Subscribers
 
-### **Paid-plan Students**
+For **Paid-plan Students**, the skewness increased from 0.63 in Q4 2021 to 7.07 in Q4 2022.
 
 <div align="center">
 <img width="489" alt="Screenshot 2024-06-20 at 12 45 25" src="https://github.com/MichAdebayo/Customer-Engagement-Analysis-with-Excel/assets/92400436/eb58c42c-8923-4138-ac10-952dd3b62a73">
 </div>
 
-For **paid-plan students**, the skewness increased from 0.63 in Q4 2021 to 7.07 in Q4 2022.
+The skewness for **free-plan students** increased from 1.17 in Q4 2021 to 15.06 in Q4 2022, indicating positive skewness.
 
-#### **Task 2:** Calculate the skewness and kurtosis of students who watched content in Q4 2021 and Q4 2022? Consider paid- and free-plan students. Does the result contradict the mean and median values previously obtained?
+<div align="center">
+<img width="486" alt="Screenshot 2024-06-20 at 13 00 22" src="https://github.com/MichAdebayo/Customer-Engagement-Analysis-with-Excel/assets/92400436/ddaa1f4a-89b2-4870-98c4-259f991107b7">
+</div>
 
-Results and Interpretation:
+In both cases, the data is positively skewed and this is supported by the fact that the mean is greater than the median in both groups. This increase in skewness suggests that more students watch significantly more content than most over time, thus, pulling the mean upwards. Consequently, the mean is not a good indicator of central tendency as it cannot accurately reflect the typical value of the dataset.
+
+Further, for **Paid-plan Students**, the kurtosis increased from -0.85 in Q4 2021 to 58.48 in Q4 2022, while that of the **Free-plan Students** increased from 0.36 in Q4 2021 to 315.76 in Q4 2022. Kurtosis values greater than 0 indicate that the data has heavier tails and a sharper peak than the normal distribution (leptokurtic). A leptokurtic distribution has a high positive kurtosis, suggesting that it’s very peaked and has a relatively large number of outliers. This type has a higher frequency of extreme values or outliers. The increase in kurtosis over time suggests more extreme cases in the data in Q4 2022 than in Q4 2021, particularly for free-plan students.
+
+Overall, the increasing skewness and kurtosis for both groups from Q4 2021 to Q4 2022 suggest a growing number of students watching significantly more content than the majority. This is especially true for free-plan students with a higher skewness and kurtosis in Q4 2022 than paid-plan students.
+
+## Exploring the difference in engagement between paid- and free-plan subscribers
+
 
 
 
