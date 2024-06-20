@@ -136,11 +136,11 @@ The p-value indicates the probability of obtaining the observed f-value if the n
 **Conclusion:** Fail to Reject H~0~ because the calculated t-statistic is higher than the critical value.
 
 **Summary:** With a t-statistic of 29.78 (greater than the critical value of -1.645), you would fail to reject the null hypothesis. This means there’s not enough evidence to conclude that μ1 is smaller than μ2. So, the data supports the null hypothesis that 
-μ1 is larger than or equal to  μ2.
+μ1 is larger than or equal to  μ2. These results align with previous findings from the confidence intervals and further underscore the difference in engagement patterns between paid- and free-plan students.
 
-These results align with previous findings from the confidence intervals and further underscore the difference in engagement patterns between paid- and free-plan students.
+* ### **Which, if committed would result in a higher cost for the company: Type I or Type II error?**
 
-
+  
 ## File Information
 
 The Excel file 'Engagement Project.xlsx' consists of four sheets: Task 1 and 2, Task 3, Task 4, and Task 5. Each sheet contains specific information regarding the project's tasks and corresponding data.
