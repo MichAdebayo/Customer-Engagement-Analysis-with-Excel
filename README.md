@@ -22,9 +22,7 @@ The dataset for this project comes from the 365 company, hence, it is a real-wor
 
 ## Exploring the difference in engagement between paid- and free-plan subscribers
 
-#### **Results and Interpretation: ** 
-
-**Paid-plan Students**
+###**Paid-plan Students**
 
 <div align="center">
 <img width="500" alt="Screenshot 2024-06-19 at 16 21 04" src="https://github.com/MichAdebayo/Customer-Engagement-Analysis-with-Excel/assets/92400436/caffa178-890a-4b5f-a55f-9f7f3b858e27">
