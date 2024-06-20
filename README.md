@@ -101,11 +101,31 @@ Among free-plan students, there's a decrease in engagement from Q4 2021 to Q4 20
 
 Please note that these are just interpretations based on the confidence intervals. Actual cause-effect relationships must be examined further to understand the causes behind these engagement changes. The fact that paid-plan subscribers watch more doesn't necessarily mean that having a paid-plan subscription encourages them to watch more. For example, the higher engagement among paid-plan students may be due to the additional features or content available or because more engaged students are more likely to choose a paid-plan subscription. Similarly, the decrease in engagement among free-plan students could be due to various factors, such as changes in the platform, competition from other platforms, or changes in the user base.
 
-## Hypothesis Testing of Student Engagement in Q4 2021 vs. Q4 2022: Variance Analysis and Error Costs
+## Hypothesis Testing of Student Engagement in Q4 2021 vs. Q4 2022: Variance Analysis and Error Type Costs
 
 For this analysis, the following hypothesis and assumption were made: 
 
-H_0 : The engagement (minutes watched) in Q4 2021 is higher than or equal to the one in Q4 2022 (μ1 ≥ μ2)
+H~0~ : The engagement (minutes watched) in Q4 2021 is higher than or equal to the one in Q4 2022 (μ1 ≥ μ2)
+
+Assumption: There is an unequal variance between free- and paid- plan students. 
+
+To validate this assumption, a two-sample f-test for variances was performed to prove the assumption of unequal variances between the samples for free- and paid-plan subscribers. 
+
+<div align="center">
+<img width="448" alt="Screenshot 2024-06-20 at 13 50 26" src="https://github.com/MichAdebayo/Customer-Engagement-Analysis-with-Excel/assets/92400436/680e67da-19da-4158-9263-715cba71403b">
+</div>
+
+The p-value indicates the probability of obtaining the observed f-value if the null hypothesis (equal variances) were true. The sample variances are not identical since the p-value in both cases is 0. Therefore a t-test is to be performed. 
+
+### **Paid-plan Students**
+
+<div align="center">
+<img width="562" alt="Screenshot 2024-06-20 at 13 39 45" src="https://github.com/MichAdebayo/Customer-Engagement-Analysis-with-Excel/assets/92400436/22a9dbfc-306d-46eb-80e8-9b52158e4e93">
+</div>
+
+**Conclusion:** Reject H~0~ because the p-value is lower than the specified significance level α (0.05).
+
+**Summary:** With a t-statistic of -3.05 (less than the critical value of -1.645), the null hypothesis is rejected because the negative t-statistic indicates that  (the mean minutes watched by students in Q4 2021) is significantly smaller than  (the mean minutes watched by students in Q4 2022). Hence, based on the available data, there is enough evidence against the null hypothesis.
 
 ## File Information
 
