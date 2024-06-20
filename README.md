@@ -20,7 +20,7 @@ The dataset for this project comes from the 365 company, hence, it is a real-wor
 
 * **Paid –** indicates whether a student had a paid account during the specified period. It is a binary variable, where '1' represents a paid account and '0' represents a free or unpaid account. It helps differentiate between students who have access to additional features or content through a paid subscription.
 
-## Exploring the difference in engagement between paid- and free-plan subscribers
+## Exploring the difference in engagement between paid- and free-plan subscribers in Q4 2021 and Q4 2022
 
 ### **Paid-plan Students**
 
@@ -57,7 +57,7 @@ These results suggest a complex picture for the initially low-engagement-free-pl
 
 Based on the findings, the platform is more successful in increasing engagement among students who make a monetary investment (i.e., paid-plan students). But the increased variability, especially among paid-plan students, indicates that there are likely differences in how individual students are responding to the platform's offerings. Therefore, personalized approaches might be beneficial in boosting engagement, and further analysis could help understand the factors that drive increased engagement among paid- and free-plan students.
 
-## Further Descriptive Statistics on the Difference in Engagement between Paid- and Free-plan Subscribers
+## Further Descriptive Statistics on the Difference in Engagement between Paid- and Free-plan Subscribers in Q4 2021 and Q4 2022
 
 For **Paid-plan Students**, the skewness increased from 0.63 in Q4 2021 to 7.07 in Q4 2022.
 
